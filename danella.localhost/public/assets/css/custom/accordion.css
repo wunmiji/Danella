@@ -1,0 +1,75 @@
+
+
+/*  Accordion */
+/*  Accordion */
+/*  Accordion */
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    color: var(--secondary-text-color);
+    background-color: var(--primary-lighter-color);
+    border: 0 !important;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-weight: normal;
+    transition: 0.4s;
+}
+
+.accordion-item:first-of-type {
+    border-radius: 0 !important;
+}
+
+.accordion-item dt {
+    padding: .5rem 1rem .5rem 1rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-item dt::after {
+    content: '+';
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
+
+.accordion-item dd {
+    padding: .5rem 1rem .5rem 1rem;
+    display: none;
+    overflow: hidden;
+    transition: display 0.5s ease-in;
+}
+
+.accordion-item dt:hover {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+.accordion-item dt:hover::after {
+    color: var(--primary-text-color);
+}
+
+.open dt {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
+
+.open dt::after {
+    content: '—';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+
+.open dd {
+    display: block;
+    max-height: 100%;
+}
+

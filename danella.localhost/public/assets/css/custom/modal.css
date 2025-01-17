@@ -1,0 +1,10 @@
+/*  Modal */
+/*  Modal */
+/*  MOdal */
+.gallary-modal {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.gallary-close-btn-modal {
+    color: var(--primary-text-color);
+}

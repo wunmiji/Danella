@@ -1,0 +1,44 @@
+/*  Modal */
+/*  Modal */
+/*  Modal */
+.view-modal {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.view-close-btn-modal {
+    color: var(--primary-text-color);
+}
+
+#filesModal {
+    height: 90vh;
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-sidebar-icons {
+    padding-right: 1rem !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    display: flex;
+    align-items: start;
+    font-size: 16px;
+}
+
+.modal-sidebar-icons i {
+    margin-right: 0.7rem !important;
+    font-size: 1.25rem !important;
+}
+
+.folders-files-modal-header {
+    border-bottom: 1px solid var(--secondary-light-color);
+}
+
+.folders-files-modal-body {
+    padding: 0;
+}
+
+.folders-modal-body {
+    border-right: 1px solid var(--secondary-light-color);
+}

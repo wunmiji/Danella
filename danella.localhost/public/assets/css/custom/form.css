@@ -1,0 +1,42 @@
+/*  Form */
+/*  Form */
+/*  Form */
+form input[type=text],
+form input[type=email],
+form input[type=tel],
+form select,
+form textarea,
+.get-quote-container .services {
+    border: none !important;
+    border-radius: 0 !important;
+    background: var(--primary-lighter-color) !important;
+    background-color: var(--primary-lighter-color) !important;
+    padding: 0.7rem !important;
+}
+
+.get-quote-container .services .row {
+    padding-left: 0.7rem !important;
+    padding-right: 0.7rem !important;
+}
+
+form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+form select option {
+    background-color: var(--primary-lighter-color);
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=tel]:focus,
+form select:focus,
+form textarea:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}

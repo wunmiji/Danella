@@ -1,0 +1,52 @@
+{
+    "name": "codeigniter4/appstarter",
+    "description": "CodeIgniter4 starter app",
+    "license": "MIT",
+    "type": "project",
+    "homepage": "https://codeigniter.com",
+    "support": {
+        "forum": "https://forum.codeigniter.com/",
+        "source": "https://github.com/codeigniter4/CodeIgniter4",
+        "slack": "https://codeigniterchat.slack.com"
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ahsankhatri/cryptolib-php": "^2.0",
+        "cocur/slugify": "^4.5",
+        "codeigniter4/framework": "^4.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "hemiframe/php-aes": "^1.2",
+        "josantonius/url": "^2.0",
+        "miladrahimi/phpcrypt": "5.*",
+        "mmeyer2k/dcrypt": "^13.2",
+        "php-science/textrank": "^1.2",
+        "phpmailer/phpmailer": "^6.9",
+        "ramsey/uuid": "^4.7",
+        "sentry/sentry": "^4.6",
+        "spomky-labs/base64url": "^2.0",
+        "yiisoft/security": "^1.0"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9",
+        "mikey179/vfsstream": "^1.6",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Support\\": "tests/_support"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
